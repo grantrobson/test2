@@ -1,0 +1,5 @@
+#Successful Tests
+#Tue May 22 14:11:20 BST 2018
+elasticsearch.ElasticClientTest=1526994680075
+monads.MebbeesTest=1526994680086
+selftype.TaxCalculatorTest=1526994680075

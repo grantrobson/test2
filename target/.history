@@ -1,0 +1,13 @@
+test
+clean
+test
+compile
+last *:update
+test
+clean
+compile
+test
+clean
+test
+tretest
+test
