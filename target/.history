@@ -11,3 +11,7 @@ clean
 test
 tretest
 test
+curl -XPOST 'https://kibana.tools.staging.tax.service.gov.uk/api/es/search' -d '
+{
+  "query": { "match_all": {} }
+test

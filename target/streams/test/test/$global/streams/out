@@ -1,12 +1,14 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(selftype.TaxCalculatorTest, org.scalatest.tools.Framework$$anon$1@1310bcb3, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(monads.MebbeesTest, org.scalatest.tools.Framework$$anon$1@1310bcb3, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(elasticsearch.ElasticClientTest, org.scalatest.tools.Framework$$anon$1@1310bcb3, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 369 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 17[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 17, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(elasticsearch.ElasticClientTest, org.scalatest.tools.Framework$$anon$1@75a969f1, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(monads.MebbeesTest, org.scalatest.tools.Framework$$anon$1@75a969f1, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(googledrive.GoogleDriveClientTest, org.scalatest.tools.Framework$$anon$1@75a969f1, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(selftype.TaxCalculatorTest, org.scalatest.tools.Framework$$anon$1@75a969f1, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 616 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 18[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 18, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	selftype.TaxCalculatorTest[0m
+[0m[[0mdebug[0m] [0m	googledrive.GoogleDriveClientTest[0m
 [0m[[0mdebug[0m] [0m	elasticsearch.ElasticClientTest[0m
 [0m[[0mdebug[0m] [0m	monads.MebbeesTest[0m
