@@ -4,7 +4,7 @@
 		module="test_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20180530094016"
+		publication="20180530111129"
 	>
 		<description>
 		test
@@ -41,8 +41,9 @@
 		<dependency org="org.mockito" name="mockito-core" rev="2.7.22" conf="compile->default(compile)"/>
 		<dependency org="org.scalaj" name="scalaj-http_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.3" conf="compile->default(compile)"/>
-		<dependency org="com.google.api-client" name="google-api-client" rev="1.22.0" conf="compile->default(compile)"/>
-		<dependency org="com.google.oauth-client" name="google-oauth-client-jetty" rev="1.22.0" conf="compile->default(compile)"/>
+		<dependency org="com.google.api-client" name="google-api-client" rev="1.23.0" conf="compile->default(compile)"/>
+		<dependency org="com.google.oauth-client" name="google-oauth-client-jetty" rev="1.23.0" conf="compile->default(compile)"/>
 		<dependency org="com.google.apis" name="google-api-services-drive" rev="v3-rev83-1.22.0" conf="compile->default(compile)"/>
+		<dependency org="com.google.apis" name="google-api-services-sheets" rev="v4-rev516-1.23.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

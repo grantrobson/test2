@@ -7,28 +7,40 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180530094016"/>
+		date="20180530111129"/>
 	<dependencies>
-		<module organisation="com.google.apis" name="google-api-services-drive">
-			<revision name="v3-rev83-1.22.0" status="release" pubdate="20170927133219" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+		<module organisation="com.google.apis" name="google-api-services-sheets">
+			<revision name="v4-rev516-1.23.0" status="release" pubdate="20180409211313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2601" time="227" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-drive/ivy-v3-rev83-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-drive/ivy-v3-rev83-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-drive/v3-rev83-1.22.0/google-api-services-drive-v3-rev83-1.22.0.pom"/>
+				<metadata-artifact status="no" details="" size="3162" time="0" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-sheets/ivy-v4-rev516-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-sheets/v4-rev516-1.23.0/google-api-services-sheets-v4-rev516-1.23.0.pom"/>
+				<caller organisation="default" name="test_2.12" conf="compile" rev="v4-rev516-1.23.0" rev-constraint-default="v4-rev516-1.23.0" rev-constraint-dynamic="v4-rev516-1.23.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="google-api-services-sheets" type="jar" ext="jar" status="no" details="" size="213136" time="0" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-sheets/jars/google-api-services-sheets-v4-rev516-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-sheets/v4-rev516-1.23.0/google-api-services-sheets-v4-rev516-1.23.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-drive">
+			<revision name="v3-rev83-1.22.0" status="release" pubdate="20170927133219" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3159" time="0" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-drive/ivy-v3-rev83-1.22.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-drive/v3-rev83-1.22.0/google-api-services-drive-v3-rev83-1.22.0.pom"/>
 				<caller organisation="default" name="test_2.12" conf="compile" rev="v3-rev83-1.22.0" rev-constraint-default="v3-rev83-1.22.0" rev-constraint-dynamic="v3-rev83-1.22.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="google-api-services-drive" type="jar" ext="jar" status="successful" details="" size="115971" time="234" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-drive/jars/google-api-services-drive-v3-rev83-1.22.0.jar">
+					<artifact name="google-api-services-drive" type="jar" ext="jar" status="no" details="" size="115971" time="0" location="/home/grant/.ivy2/cache/com.google.apis/google-api-services-drive/jars/google-api-services-drive-v3-rev83-1.22.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-drive/v3-rev83-1.22.0/google-api-services-drive-v3-rev83-1.22.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.oauth-client" name="google-oauth-client-jetty">
-			<revision name="1.22.0" status="release" pubdate="20160502234806" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+			<revision name="1.23.0" status="release" pubdate="20171002230538" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2696" time="135" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-jetty/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-jetty/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-jetty/1.22.0/google-oauth-client-jetty-1.22.0.pom"/>
-				<caller organisation="default" name="test_2.12" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="9506" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-jetty/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.pom"/>
+				<caller organisation="default" name="test_2.12" conf="compile" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="google-oauth-client-jetty" type="jar" ext="jar" status="successful" details="" size="5836" time="140" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-jetty/jars/google-oauth-client-jetty-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-jetty/1.22.0/google-oauth-client-jetty-1.22.0.jar"/>
+					<artifact name="google-oauth-client-jetty" type="jar" ext="jar" status="no" details="" size="6502" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-jetty/jars/google-oauth-client-jetty-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -36,7 +48,7 @@
 		<module organisation="org.mortbay.jetty" name="jetty">
 			<revision name="6.1.26" status="release" pubdate="20101110214054" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
 				<metadata-artifact status="no" details="" size="7219" time="0" location="/home/grant/.ivy2/cache/org.mortbay.jetty/jetty/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom"/>
-				<caller organisation="com.google.oauth-client" name="google-oauth-client-jetty" conf="default, compile, runtime, master" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="1.22.0"/>
+				<caller organisation="com.google.oauth-client" name="google-oauth-client-jetty" conf="default, compile, runtime, master" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="1.23.0"/>
 				<artifacts>
 					<artifact name="jetty" type="jar" ext="jar" status="no" details="" size="539912" time="0" location="/home/grant/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.26.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
@@ -67,76 +79,84 @@
 			</revision>
 		</module>
 		<module organisation="com.google.oauth-client" name="google-oauth-client-java6">
-			<revision name="1.22.0" status="release" pubdate="20160502234756" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+			<revision name="1.23.0" status="release" pubdate="20171002230515" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2999" time="136" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.22.0/google-oauth-client-java6-1.22.0.pom"/>
-				<caller organisation="com.google.oauth-client" name="google-oauth-client-jetty" conf="default, compile, runtime, master" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="9624" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.pom"/>
+				<caller organisation="com.google.oauth-client" name="google-oauth-client-jetty" conf="default, compile, runtime, master" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="google-oauth-client-java6" type="jar" ext="jar" status="successful" details="" size="10830" time="136" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/jars/google-oauth-client-java6-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.22.0/google-oauth-client-java6-1.22.0.jar"/>
+					<artifact name="google-oauth-client-java6" type="jar" ext="jar" status="no" details="" size="11278" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/jars/google-oauth-client-java6-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.api-client" name="google-api-client">
-			<revision name="1.22.0" status="release" pubdate="20160503004251" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="16">
+			<revision name="1.23.0" status="release" pubdate="20171002230735" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="16">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3910" time="176" location="/home/grant/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.pom"/>
-				<caller organisation="default" name="test_2.12" conf="compile" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.0"/>
+				<metadata-artifact status="no" details="" size="11981" time="0" location="/home/grant/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.pom"/>
+				<caller organisation="default" name="test_2.12" conf="compile" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.0"/>
+				<caller organisation="com.google.apis" name="google-api-services-drive" conf="default, compile, runtime, master" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="v3-rev83-1.22.0"/>
+				<caller organisation="com.google.apis" name="google-api-services-sheets" conf="default, compile, runtime, master" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="v4-rev516-1.23.0"/>
+				<artifacts>
+					<artifact name="google-api-client" type="jar" ext="jar" status="no" details="" size="199662" time="0" location="/home/grant/.ivy2/cache/com.google.api-client/google-api-client/jars/google-api-client-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.22.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="1.23.0"/>
+				<caller organisation="default" name="test_2.12" conf="compile" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.0"/>
 				<caller organisation="com.google.apis" name="google-api-services-drive" conf="default, compile, runtime, master" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="v3-rev83-1.22.0"/>
 				<artifacts>
-					<artifact name="google-api-client" type="jar" ext="jar" status="successful" details="" size="199100" time="208" location="/home/grant/.ivy2/cache/com.google.api-client/google-api-client/jars/google-api-client-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.22.0/google-api-client-1.22.0.jar"/>
-					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.http-client" name="google-http-client-jackson2">
-			<revision name="1.22.0" status="release" pubdate="20160502234447" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="1.23.0" status="release" pubdate="20171002230036" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2751" time="146" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.pom"/>
-				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="10157" time="0" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.pom"/>
+				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="google-http-client-jackson2" type="jar" ext="jar" status="successful" details="" size="6720" time="138" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client-jackson2/jars/google-http-client-jackson2-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.22.0/google-http-client-jackson2-1.22.0.jar"/>
+					<artifact name="google-http-client-jackson2" type="jar" ext="jar" status="no" details="" size="6675" time="0" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client-jackson2/jars/google-http-client-jackson2-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.1.3" status="release" pubdate="20130119210627" resolver="public" artresolver="public" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+			<revision name="2.1.3" status="release" pubdate="20130119210627" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5649" time="139" location="/home/grant/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.3.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom"/>
-				<caller organisation="com.google.http-client" name="google-http-client-jackson2" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/home/grant/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom"/>
+				<caller organisation="com.google.http-client" name="google-http-client-jackson2" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="jackson-core" type="jar" ext="jar" status="successful" details="" size="206797" time="146" location="/home/grant/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.3.jar">
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="206797" time="0" location="/home/grant/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.oauth-client" name="google-oauth-client">
-			<revision name="1.22.0" status="release" pubdate="20160502234710" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+			<revision name="1.23.0" status="release" pubdate="20171002230323" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2893" time="165" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.pom"/>
-				<caller organisation="com.google.oauth-client" name="google-oauth-client-java6" conf="compile, runtime" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
-				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="9911" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.pom"/>
+				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
+				<caller organisation="com.google.oauth-client" name="google-oauth-client-java6" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="google-oauth-client" type="jar" ext="jar" status="successful" details="" size="61342" time="144" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client/jars/google-oauth-client-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.22.0/google-oauth-client-1.22.0.jar"/>
+					<artifact name="google-oauth-client" type="jar" ext="jar" status="no" details="" size="61764" time="0" location="/home/grant/.ivy2/cache/com.google.oauth-client/google-oauth-client/jars/google-oauth-client-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.google.http-client" name="google-http-client">
-			<revision name="1.22.0" status="release" pubdate="20160502234327" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+			<revision name="1.23.0" status="release" pubdate="20171002225906" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="5136" time="141" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.22.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.22.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.pom"/>
-				<caller organisation="com.google.oauth-client" name="google-oauth-client" conf="compile, runtime" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
-				<caller organisation="com.google.http-client" name="google-http-client-jackson2" conf="compile, runtime" rev="1.22.0" rev-constraint-default="1.22.0" rev-constraint-dynamic="1.22.0" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="10787" time="0" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.pom"/>
+				<caller organisation="com.google.http-client" name="google-http-client-jackson2" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
+				<caller organisation="com.google.oauth-client" name="google-oauth-client" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="google-http-client" type="jar" ext="jar" status="successful" details="" size="357024" time="153" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client/jars/google-http-client-1.22.0.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.22.0/google-http-client-1.22.0.jar"/>
+					<artifact name="google-http-client" type="jar" ext="jar" status="no" details="" size="357839" time="0" location="/home/grant/.ivy2/cache/com.google.http-client/google-http-client/jars/google-http-client-1.23.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -145,7 +165,7 @@
 			<revision name="4.0.1" status="release" pubdate="20091209192018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
 				<license name="Apache License" url="../LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="5052" time="0" location="/home/grant/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom"/>
-				<caller organisation="com.google.http-client" name="google-http-client" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.22.0"/>
+				<caller organisation="com.google.http-client" name="google-http-client" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.23.0"/>
 				<artifacts>
 					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="291037" time="0" location="/home/grant/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"/>
@@ -154,12 +174,12 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.3" status="release" pubdate="20051108222951" resolver="public" artresolver="public" homepage="http://jakarta.apache.org/commons/codec/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+			<revision name="1.3" status="release" pubdate="20051108222951" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
 				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="6104" time="155" location="/home/grant/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/home/grant/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom"/>
 				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="commons-codec" type="jar" ext="jar" status="successful" details="" size="46725" time="134" location="/home/grant/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.3.jar">
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="46725" time="0" location="/home/grant/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -189,12 +209,12 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava-jdk5">
-			<revision name="17.0" status="release" pubdate="20140422220923" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+			<revision name="17.0" status="release" pubdate="20140422220923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="6477" time="135" location="/home/grant/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.pom"/>
-				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="1.22.0"/>
+				<metadata-artifact status="no" details="" size="5878" time="0" location="/home/grant/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.pom"/>
+				<caller organisation="com.google.api-client" name="google-api-client" conf="default, compile, runtime, master" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="1.23.0"/>
 				<artifacts>
-					<artifact name="guava-jdk5" type="bundle" ext="jar" status="successful" details="" size="2059438" time="279" location="/home/grant/.ivy2/cache/com.google.guava/guava-jdk5/bundles/guava-jdk5-17.0.jar">
+					<artifact name="guava-jdk5" type="bundle" ext="jar" status="no" details="" size="2059438" time="0" location="/home/grant/.ivy2/cache/com.google.guava/guava-jdk5/bundles/guava-jdk5-17.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -204,8 +224,8 @@
 			<revision name="1.3.9" status="release" pubdate="20090824232822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2393" time="0" location="/home/grant/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
-				<caller organisation="com.google.oauth-client" name="google-oauth-client" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="1.22.0"/>
-				<caller organisation="com.google.http-client" name="google-http-client" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="1.22.0"/>
+				<caller organisation="com.google.http-client" name="google-http-client" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="1.23.0"/>
+				<caller organisation="com.google.oauth-client" name="google-oauth-client" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="1.23.0"/>
 				<artifacts>
 					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="/home/grant/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>

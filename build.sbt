@@ -13,6 +13,7 @@ libraryDependencies +=  "org.scalaj" %% "scalaj-http" % "2.4.0"
 
 libraryDependencies += "ch.qos.logback"    %  "logback-classic" % "1.1.3"
 
-libraryDependencies += "com.google.api-client" % "google-api-client" % "1.22.0"
-libraryDependencies += "com.google.oauth-client" % "google-oauth-client-jetty" % "1.22.0"
+libraryDependencies += "com.google.api-client" % "google-api-client" % "1.23.0"
+libraryDependencies += "com.google.oauth-client" % "google-oauth-client-jetty" % "1.23.0"
 libraryDependencies += "com.google.apis" % "google-api-services-drive" % "v3-rev83-1.22.0"
+libraryDependencies += "com.google.apis" % "google-api-services-sheets" % "v4-rev516-1.23.0"

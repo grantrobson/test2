@@ -1,2 +1,3 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/main/resources/client_secret_google_sheets.json,/home/grant/Applications/hmrc-development-environment/hmrc/test/target/scala-2.12/classes/client_secret_google_sheets.json)[0m
 [0m[[0mdebug[0m] [0m	(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/main/resources/client-secret_google_drive.json,/home/grant/Applications/hmrc-development-environment/hmrc/test/target/scala-2.12/classes/client-secret_google_drive.json)[0m
