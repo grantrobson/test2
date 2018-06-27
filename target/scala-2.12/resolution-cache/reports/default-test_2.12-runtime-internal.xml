@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180530111129"/>
+		date="20180627152118"/>
 	<dependencies>
 		<module organisation="com.google.apis" name="google-api-services-sheets">
 			<revision name="v4-rev516-1.23.0" status="release" pubdate="20180409211313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">

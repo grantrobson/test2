@@ -1,9 +1,9 @@
 #Successful Tests
-#Thu May 31 09:24:13 BST 2018
-googlesheets.GoogleSheetsClientTest=1527755053473
-googledrive.GoogleDriveClientTest=1527755052508
-elasticsearch.ElasticClientTest=1527755053839
-monads.MebbeesTest=1527755052510
-googlesheets.GoogleSheetTest=1527586487920
-selftype.TaxCalculatorTest=1527755052508
-googlesheets.GoogleDriveClientTest=1527670158081
+#Wed Jun 27 15:21:38 BST 2018
+various.PenguinCategorizerTest=1530109292214
+googlesheets.GoogleSheetsClientTest=1530109293825
+googledrive.GoogleDriveClientTest=1530109292214
+elasticsearch.ElasticClientTest=1530109298299
+monads.MebbeesTest=1530109292243
+various.MatchExampleTest=1530109292214
+selftype.TaxCalculatorTest=1530109292214

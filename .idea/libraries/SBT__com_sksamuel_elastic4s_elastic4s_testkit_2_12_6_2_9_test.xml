@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.sksamuel.elastic4s:elastic4s-testkit_2.12:6.2.9:test">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-testkit_2.12/jars/elastic4s-testkit_2.12-6.2.9.jar!/"/>
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-testkit_2.12/docs/elastic4s-testkit_2.12-6.2.9-javadoc.jar!/"/>
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.sksamuel.elastic4s/elastic4s-testkit_2.12/srcs/elastic4s-testkit_2.12-6.2.9-sources.jar!/"/>
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.elasticsearch:elasticsearch-cli:6.2.2:test">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch-cli/jars/elasticsearch-cli-6.2.2.jar!/"/>
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch-cli/docs/elasticsearch-cli-6.2.2-javadoc.jar!/"/>
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch-cli/srcs/elasticsearch-cli-6.2.2-sources.jar!/"/>
+    </SOURCES>
+  </library>
+</component>

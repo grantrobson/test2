@@ -1,17 +1,1 @@
 test
-clean
-test
-compile
-last *:update
-test
-clean
-compile
-test
-clean
-test
-tretest
-test
-curl -XPOST 'https://kibana.tools.staging.tax.service.gov.uk/api/es/search' -d '
-{
-  "query": { "match_all": {} }
-test

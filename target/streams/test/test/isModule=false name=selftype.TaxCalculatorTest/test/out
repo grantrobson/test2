@@ -1,7 +1,0 @@
-[0m[[0minfo[0m] [0m[32mTaxCalculatorTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mTaxCalculator with two thresholds mixed in[0m[0m
-[0m[[0minfo[0m] [0m[32m- should work for value at 2nd threshold[0m[0m
-[0m[[0minfo[0m] [0m[32m- should work for value at 3rd threshold[0m[0m
-[0m[[0minfo[0m] [0m[32mTaxCalculator with one thresholds mixed in[0m[0m
-[0m[[0minfo[0m] [0m[32m- should give zero for value at 1st threshold[0m[0m
-[0m[[0minfo[0m] [0m[32m- should give threshold for value at 2nd threshold[0m[0m
