@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mPenguinCategorizerTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mcaseMatchesUsingObjectAndUnapply[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match first match object[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match second match object[0m[0m
+[0m[[0minfo[0m] [0m[32m- should match else condition[0m[0m

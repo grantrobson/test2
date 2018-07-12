@@ -6,9 +6,21 @@
 		module="test_2.12"
 		revision="1.0"
 		conf="runtime"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180627152118"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180712164143"/>
 	<dependencies>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="1.6.2" status="release" pubdate="20100914000700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3333" time="0" location="/home/grant/.ivy2/cache/joda-time/joda-time/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.pom"/>
+				<caller organisation="default" name="test_2.12" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="543044" time="0" location="/home/grant/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.google.apis" name="google-api-services-sheets">
 			<revision name="v4-rev516-1.23.0" status="release" pubdate="20180409211313" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
