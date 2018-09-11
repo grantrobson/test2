@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="test-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.8.0"
+		extra-sbtVersion="0.13"
+		conf="scala-tool"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180911095322"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.8.0" status="release" pubdate="20100714171035" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+			"/>
+				<metadata-artifact status="successful" details="" size="1785" time="180" location="/home/grant/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.pom"/>
+				<caller organisation="default" name="test-build" conf="scala-tool" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="successful" details="" size="8671416" time="495" location="/home/grant/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.8.0/scala-compiler-2.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="0.9.91" status="release" pubdate="20070313181842" resolver="public" artresolver="public" homepage="http://jline.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, master(compile), compile(*), master" position="2">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="successful" details="" size="6667" time="109" location="/home/grant/.ivy2/cache/jline/jline/ivy-0.9.91.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/jline/jline/ivy-0.9.91.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="optional" rev="0.9.91" rev-constraint-default="0.9.91" rev-constraint-dynamic="0.9.91" callerrev="2.8.0"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="successful" details="" size="61285" time="99" location="/home/grant/.ivy2/cache/jline/jline/jars/jline-0.9.91.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/0.9.91/jline-0.9.91.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="3.8.1" status="release" pubdate="20070514223418" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, master(compile), compile(*), master" position="3">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2457" time="0" location="/home/grant/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom"/>
+				<caller organisation="jline" name="jline" conf="compile" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.9.91"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="121070" time="0" location="/home/grant/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.8.0" status="release" pubdate="20100714171007" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
+         "/>
+				<metadata-artifact status="successful" details="" size="1427" time="108" location="/home/grant/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml" searched="true" original-local-location="/home/grant/.ivy2/cache/org.scala-lang/scala-library/ivy-2.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.pom"/>
+				<caller organisation="default" name="test-build" conf="scala-tool" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, optional, master" rev="2.8.0" rev-constraint-default="2.8.0" rev-constraint-dynamic="2.8.0" callerrev="2.8.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="6160791" time="503" location="/home/grant/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.8.0/scala-library-2.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

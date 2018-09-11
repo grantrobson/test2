@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m[32mMatchExampleTest:[0m[0m
-[0m[[0minfo[0m] [0m[32matMatchExample[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return the full option for the first item when 2nd is none, not just the contained item[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return the full option for the 2nd arg when first is none, not just the contained item[0m[0m

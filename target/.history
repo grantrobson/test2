@@ -1,1 +1,9 @@
 test
+testOnly *PartialsExampleTest
+clean
+testOnly *PartialsExampleTest
+scalaVersion
+testOnly *PartialsExampleTest
+scalaVersion
+testOnly *PartialsExampleTest
+test

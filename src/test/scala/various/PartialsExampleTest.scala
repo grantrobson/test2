@@ -19,9 +19,30 @@ package various
 import org.scalatest.{Matchers, OptionValues, WordSpecLike}
 
 class PartialsExampleTest extends WordSpecLike with Matchers with OptionValues {
-  "Partially applied function example" should {
-    "Add numbers correctly" in {
-      PartialsExample.partiallyAppliedFunctionExample1() shouldBe 1
+  "Partial usages" should {
+
+    "Use partially applied functions" in {
+      PartialsExample.partiallyAppliedFunctionExample1() shouldBe 12
+    }
+
+    "Curry numbers correctly" in {
+      PartialsExample.curriedFunctionExample() shouldBe 9
+    }
+
+    "andThenExample 1" in {
+      PartialsExample.andThenExample1() shouldBe 30
+    }
+
+    "andThenExample 2" in {
+      PartialsExample.andThenExample2() shouldBe 30
+    }
+
+    "Partial function example 1" in {
+      PartialsExample.partialFunctionExample1() shouldBe 1
+    }
+
+    "Partial function example 2" in {
+      PartialsExample.partialFunctionExample2() shouldBe 1
     }
 
   }
