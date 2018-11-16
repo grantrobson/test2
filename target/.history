@@ -7,3 +7,10 @@ testOnly *PartialsExampleTest
 scalaVersion
 testOnly *PartialsExampleTest
 test
+testOnly *PartialsExampleTest
+test
+testOnly *ExtractorExampleTest
+test
+testOnly *Extractor*
+test
+testOnly *Extractor*

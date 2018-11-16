@@ -1,19 +1,23 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(googlesheets.GoogleSheetsClientTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(selftype.TaxCalculatorTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(various.CollectExampleTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(googledrive.GoogleDriveClientTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(elasticsearch.ElasticClientTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(various.MatchExampleTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(various.PenguinCategorizerTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(various.PartialsExampleTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(various.DateExampleTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(monads.MebbeesTest, org.scalatest.tools.Framework$$anon$1@355901c8, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 681 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 36[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 10, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 36, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.ExtractorExampleTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.PenguinCategorizerTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(monads.MebbeesTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.MatchExampleTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.CollectExampleTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(elasticsearch.ElasticClientTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(alternativetoselftype.TaxCalculatorTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(selftype.TaxCalculatorTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.PartialsExampleTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(various.DateExampleTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(googlesheets.GoogleSheetsClientTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(googledrive.GoogleDriveClientTest, org.scalatest.tools.Framework$$anon$1@27f857a2, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 2 seconds, 201 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 41[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 12, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 41, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	various.ExtractorExampleTest[0m
+[0m[[0mdebug[0m] [0m	alternativetoselftype.TaxCalculatorTest[0m
 [0m[[0mdebug[0m] [0m	elasticsearch.ElasticClientTest[0m
 [0m[[0mdebug[0m] [0m	googlesheets.GoogleSheetsClientTest[0m
 [0m[[0mdebug[0m] [0m	various.CollectExampleTest[0m

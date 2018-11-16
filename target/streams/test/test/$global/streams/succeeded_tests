@@ -1,12 +1,14 @@
 #Successful Tests
-#Tue Sep 11 15:45:34 BST 2018
-various.PenguinCategorizerTest=1536677133631
-various.CollectExampleTest=1536677133642
-googlesheets.GoogleSheetsClientTest=1536677134093
-various.MatchExampleTest=1536677133630
-various.PartialsExampleTest=1536677133630
-elasticsearch.ElasticClientTest=1536677134081
-monads.MebbeesTest=1536677133657
-selftype.TaxCalculatorTest=1536677133630
-googledrive.GoogleDriveClientTest=1536677133631
-various.DateExampleTest=1536677133696
+#Fri Nov 16 09:27:28 GMT 2018
+various.PenguinCategorizerTest=1542299942874
+various.CollectExampleTest=1542299942922
+googlesheets.GoogleSheetsClientTest=1542299944426
+various.MatchExampleTest=1542299942874
+alternativetoselftype.TaxCalculatorTest=1542299942875
+various.PartialsExampleTest=1542299942995
+various.ExtractorExampleTest=1542360448238
+elasticsearch.ElasticClientTest=1542299943647
+monads.MebbeesTest=1542299942965
+selftype.TaxCalculatorTest=1542299942873
+googledrive.GoogleDriveClientTest=1542299942929
+various.DateExampleTest=1542299943084

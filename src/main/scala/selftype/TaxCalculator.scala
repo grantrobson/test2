@@ -17,11 +17,13 @@
 package selftype
 
 trait TaxCalculator {
-  // This line says that any class implementing this trait must also extend TaxThresholdProvider
-  this: TaxThresholdProvider =>
-  def calculate(value:BigDecimal): BigDecimal = {
 
-    thresholds.find( xx => value >= xx._1 && value <= xx._2 ) match {
+  // This pattern seems largely superseded now that we have dependency injection in scala
+
+  // This line says that any class implementing this trait must also extend TaxThresholdProvider
+   this: TaxThresholdProvider =>
+  def calculate(value:BigDecimal): BigDecimal = {
+     thresholds.find( xx => value >= xx._1 && value <= xx._2 ) match {
       case None => BigDecimal(0)
       case Some(t) => t._3
     }
