@@ -63,5 +63,41 @@ class ExtractorExampleTest extends WordSpecLike with Matchers with OptionValues 
       println( "\nResult=" + result)
       result.head shouldBe result(1)
     }
+
+
+
+
+
+
+    "penguin categorizer v1" should {
+      "match first match object" in {
+        val youngPenguin = ExtractorExample.penguinv1.Penguin("Arnold", 3)
+        ExtractorExample.penguinv1.PenguinCategorizer.categorize(youngPenguin) shouldBe "Young penguin"
+      }
+      "match second match object" in {
+        val middleAgedPenguin = ExtractorExample.penguinv1.Penguin("Sam", 7)
+        ExtractorExample.penguinv1.PenguinCategorizer.categorize(middleAgedPenguin) shouldBe "Middle aged penguin"
+      }
+      "match else condition" in {
+        val oldPenguin = ExtractorExample.penguinv1.Penguin("Stan", 18)
+        ExtractorExample.penguinv1.PenguinCategorizer.categorize(oldPenguin) shouldBe "Old penguin"
+      }
+    }
+
+    "penguin categorizer v2" should {
+      "match first match object" in {
+        val youngPenguin = ExtractorExample.penguinv2.Penguin("Arnold", 3)
+        ExtractorExample.penguinv2.PenguinCategorizer.categorize(youngPenguin) shouldBe "Young penguin"
+      }
+      "match second match object" in {
+        val middleAgedPenguin = ExtractorExample.penguinv2.Penguin("Sam", 7)
+        ExtractorExample.penguinv2.PenguinCategorizer.categorize(middleAgedPenguin) shouldBe "Middle aged penguin"
+      }
+      "match else condition" in {
+        val oldPenguin = ExtractorExample.penguinv2.Penguin("Stan", 18)
+        ExtractorExample.penguinv2.PenguinCategorizer.categorize(oldPenguin) shouldBe "Old penguin"
+      }
+    }
+
   }
 }

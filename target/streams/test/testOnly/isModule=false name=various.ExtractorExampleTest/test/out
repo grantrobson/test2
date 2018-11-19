@@ -10,3 +10,11 @@
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq where variable attributes[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine two object together[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine one object and a different type of object together[0m[0m
+[0m[[0minfo[0m] [0m[32m  should penguin categorizer v1[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match first match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match second match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match else condition[0m[0m
+[0m[[0minfo[0m] [0m[32m  should penguin categorizer v2[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match first match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match second match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should match else condition[0m[0m
