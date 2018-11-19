@@ -1,20 +1,26 @@
 [0m[[0minfo[0m] [0m[32mExtractorExampleTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mextractorExample[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on a match[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapply where 2 attributes[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapply where 2 attributes[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq where variable attributes[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq where variable attributes[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine two object together[0m[0m
-[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine one object and a different type of object together[0m[0m
+[0m[[0minfo[0m] [0m[32mExtractorExample object[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on a match when staticUnapplyMethodOnMatch is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment when staticUnapplyMethodOnAssignment is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapply where there are 2 attributes when staticUnapplyMethodOnAssignmentMultipleAttributes is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapply where there are 2 attributes when staticUnapplyMethodOnMatchMultipleAttributes is called[0m[0m
 [0m[[0minfo[0m] [0m[32m  should penguin categorizer v1[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match first match object[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match second match object[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match else condition[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for first match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for second match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for else condition[0m[0m
 [0m[[0minfo[0m] [0m[32m  should penguin categorizer v2[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match first match object[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match second match object[0m[0m
 [0m[[0minfo[0m] [0m[32m  - should match else condition[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for first match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for second match object[0m[0m
+[0m[[0minfo[0m] [0m[32m  - should calculate correct life insurance risk for else condition[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq when staticUnapplySeqMethodOnAssignmentMultipleAttributes is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq when staticUnapplySeqMethodOnMatchMultipleAttributes is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq where variable attributes where staticUnapplySeqMethodOnAssignmentVariableAttributes is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq where variable attributes where staticUnapplySeqMethodOnMatchVariableAttributes is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine two object together where unapplySeqMethodOnAssignmentCombiningTwoObjects is called[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine one object and a different type of object together where unapplySeqMethodOnAssignmentCombiningTwoObjectsOfDifferentTypesis called[0m[0m

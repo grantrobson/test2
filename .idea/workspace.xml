@@ -2,21 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71bc093e-9cfa-40d4-b56f-76c7d3f6c67c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$10$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$12$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$12$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$14$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$14$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$16$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$16$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$18$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$18$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$8$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$10$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$PenguinCategorizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$PenguinCategorizer$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,21 +86,22 @@
     <session id="1650867072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="3219" />
+          <entry key="scala" value="4419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3219" />
+          <entry key="Scala" value="4419" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,20 +118,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+            <state relative-caret-position="790">
+              <caret line="297" column="34" selection-start-line="297" selection-start-column="34" selection-end-line="297" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="736">
-              <caret line="307" column="3" lean-forward="true" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
+              <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -104,6 +147,7 @@
       <find>staticUnapplyMethodOnAssignment</find>
       <find>asOption</find>
       <find>isYoung</find>
+      <find>staticUnapplyMethodOnMatchMultipleAttributes</find>
     </findStrings>
     <replaceStrings>
       <replace>Stewart</replace>
@@ -125,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/selftype/TaxCalculator.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/various/JsonExampleTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/various/HttpReadsExampleTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" />
       </list>
     </option>
   </component>
@@ -317,7 +361,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-5" width="1920" height="1085" extended-state="6" />
+    <frame x="1919" y="-5" width="1922" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29828325" />
@@ -493,31 +537,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/various/PenguinCategorizerTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/various/PenguinCategorizerTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/PenguinCategorizer.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/PenguinCategorizer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="18" selection-start-line="18" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="736">
+          <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="307" column="3" lean-forward="true" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
+        <state relative-caret-position="790">
+          <caret line="297" column="34" selection-start-line="297" selection-start-column="34" selection-end-line="297" selection-end-column="34" />
         </state>
       </provider>
     </entry>

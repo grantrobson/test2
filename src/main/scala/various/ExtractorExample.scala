@@ -52,6 +52,19 @@ object ExtractorExample {
     }
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
   def staticUnapplyMethodOnAssignment: String = {
 
     trait User {
@@ -84,11 +97,28 @@ object ExtractorExample {
     retrievedUserName
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   def staticUnapplyMethodOnAssignmentMultipleAttributes: Seq[String] = {
     class Albatross(val name: String, val colour: String) {
     }
     object Albatross {
       def apply(s: String, c: String) = new Albatross(s, c)
+
       def unapply(a: Albatross): Option[(String, String)] = {
         Option(Tuple2(a.name, a.colour))
       }
@@ -104,11 +134,39 @@ object ExtractorExample {
     Seq(name, c)
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   def staticUnapplyMethodOnMatchMultipleAttributes: String = {
     class Albatross(val name: String, val colour: String) {
     }
     object Albatross {
       def apply(s: String, c: String) = new Albatross(s, c)
+
       def unapply(a: Albatross): Option[(String, String)] = {
         Option(Tuple2(a.name, a.colour))
       }
@@ -120,6 +178,160 @@ object ExtractorExample {
       case _ => "Not found"
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  object penguinv1 {
+
+    case class Penguin(name: String, age: Int)
+
+    object PenguinCategorizer {
+      private def isYoung(age: Int): Boolean = age < 6
+
+      private def isMiddleAged(age: Int): Boolean = age > 5 && age < 10
+
+      def calculateLifeInsuranceRisk(penguin: Penguin): Int = {
+        penguin match {
+          case Penguin(_, age) if isYoung(age) => 25
+          case Penguin(_, age) if isMiddleAged(age) => 50
+          case _ => 75
+        }
+      }
+
+      def categorize(penguin: Penguin): String = {
+        penguin match {
+          case Penguin(_, age) if isYoung(age) => "Young penguin"
+          case Penguin(_, age) if isMiddleAged(age) => "Middle aged penguin"
+          case _ => "Old penguin"
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  object penguinv2 {
+
+    case class Penguin(name: String, age: Int)
+
+    object PenguinCategorizer {
+      private def isYoung(age: Int): Boolean = age < 6
+
+      private def isMiddleAged(age: Int): Boolean = age > 5 && age < 10
+
+      def categorize(penguin: Penguin): String =
+        penguin match {
+          case YouthfulPenguin(_, _) => "Young penguin"
+          case MiddleAgedPenguin(_, _) => "Middle aged penguin"
+          case _ => "Old penguin"
+        }
+
+
+      def calculateLifeInsuranceRisk(penguin: Penguin): Int =
+        penguin match {
+          case YouthfulPenguin(_, _) => 25
+          case MiddleAgedPenguin(_, _) => 50
+          case _ => 75
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      object YouthfulPenguin {
+        def unapply(p: Penguin): Option[(String, Int)] = {
+          if (isYoung(p.age)) {
+            Some(Tuple2(p.name, p.age))
+          } else {
+            None
+          }
+        }
+      }
+
+      object MiddleAgedPenguin {
+        def unapply(p: Penguin): Option[(String, Int)] = {
+          if (isMiddleAged(p.age)) {
+            Some(Tuple2(p.name, p.age))
+          } else {
+            None
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+
+
+
 
   def staticUnapplySeqMethodOnAssignmentMultipleAttributes: Seq[String] = {
     class Albatross(val name: String, val colour: String) {
@@ -143,6 +355,34 @@ object ExtractorExample {
     Seq(a, b, c, d)
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   def staticUnapplySeqMethodOnMatchMultipleAttributes: String = {
     class Albatross(val name: String, val colour: String) {
     }
@@ -161,6 +401,35 @@ object ExtractorExample {
       case _ => "No values extracted"
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   def staticUnapplySeqMethodOnAssignmentVariableAttributes: Seq[String] = {
     class Albatross(val name: String, val colours: List[String]) {
@@ -185,6 +454,31 @@ object ExtractorExample {
     Seq(a, b, c, d, e, f)
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   def staticUnapplySeqMethodOnMatchVariableAttributes: String = {
     class Albatross(val name: String, val colours: List[String]) {
     }
@@ -205,6 +499,33 @@ object ExtractorExample {
       case _ => "No values extracted"
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   def unapplySeqMethodOnAssignmentCombiningTwoObjects: Seq[String] = {
     case class Penguin(name: String, colour: String) {
@@ -228,6 +549,32 @@ object ExtractorExample {
     Seq(a, b, c, d)
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   def unapplySeqMethodOnAssignmentCombiningTwoObjectsOfDifferentTypes: Seq[String] = {
     case class Penguin(name: String, colour: String) {
       // An unapplySeq defined on a class allows object to be combined with another:-
@@ -246,65 +593,6 @@ object ExtractorExample {
     val b = capturedGroups.head
 
     Seq(a, b)
-  }
-
-  object penguinv1 {
-    case class Penguin(name: String, age: Int)
-
-    object PenguinCategorizer {
-      private def isYoung(age: Int): Boolean = age < 6
-
-      private def isMiddleAged(age: Int): Boolean = age > 5 && age < 10
-
-      val youngPenguinDescription = "Young penguin"
-      val middleAgedPenguinDescription = "Middle aged penguin"
-      val oldPenguinDescription = "Old penguin"
-
-      def categorize(penguin: Penguin): String = {
-        penguin match {
-          case Penguin(_, age) if isYoung(age) => youngPenguinDescription
-          case Penguin(_, age) if isMiddleAged(age) => middleAgedPenguinDescription
-          case _ => oldPenguinDescription
-        }
-      }
-    }
-
-  }
-
-  object penguinv2 {
-    case class Penguin(name: String, age: Int)
-
-    object PenguinCategorizer {
-      private def isYoung(age: Int): Boolean = age < 6
-      private def isMiddleAged(age: Int): Boolean = age > 5 && age < 10
-
-      object YouthfulPenguin {
-        def unapply(p: Penguin): Option[(String, Int)] = {
-          if (isYoung(p.age)) {
-            Some(Tuple2(p.name, p.age))
-          } else {
-            None
-          }
-        }
-      }
-
-      object MiddleAgedPenguin {
-        def unapply(p: Penguin): Option[(String, Int)] = {
-          if (isMiddleAged(p.age)) {
-            Some(Tuple2(p.name, p.age))
-          } else {
-            None
-          }
-        }
-      }
-
-      def categorize(penguin: Penguin): String =
-        penguin match {
-          case YouthfulPenguin(_, _) => "Young penguin"
-          case MiddleAgedPenguin(_, _) => "Middle aged penguin"
-          case _ => "Old penguin"
-        }
-      }
   }
 
 }
