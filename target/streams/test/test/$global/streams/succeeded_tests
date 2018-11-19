@@ -1,12 +1,12 @@
 #Successful Tests
-#Mon Nov 19 14:45:53 GMT 2018
+#Mon Nov 19 14:51:18 GMT 2018
 various.PenguinCategorizerTest=1542631459853
 various.CollectExampleTest=1542631459941
 googlesheets.GoogleSheetsClientTest=1542631461559
 various.MatchExampleTest=1542631459907
 alternativetoselftype.TaxCalculatorTest=1542631459853
 various.PartialsExampleTest=1542631459853
-various.ExtractorExampleTest=1542638753273
+various.ExtractorExampleTest=1542639078578
 elasticsearch.ElasticClientTest=1542631460718
 monads.MebbeesTest=1542631459888
 selftype.TaxCalculatorTest=1542631459853

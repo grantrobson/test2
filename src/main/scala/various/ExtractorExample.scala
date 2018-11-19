@@ -276,45 +276,35 @@ object ExtractorExample {
 
     object PenguinCategorizer {
       private def isYoung(age: Int): Boolean = age < 6
-
       private def isMiddleAged(age: Int): Boolean = age > 5 && age < 10
 
-      val youngPenguinDescription = "Young penguin"
-      val middleAgedPenguinDescription = "Middle aged penguin"
-      val oldPenguinDescription = "Old penguin"
-
-      def asOption[A, B](b: => Boolean,
-                         sourceOfOptionContent: A,
-                         contentExtractor: A => B,
-                         isSomeItem: Boolean => Boolean = identity): Option[B] =
-        if (isSomeItem(b)) {
-          Some(contentExtractor(sourceOfOptionContent))
-        } else {
-          None
-        }
-
-      val penguinExtractorFunction: Penguin => (String, Int) = p => (p.name, p.age)
-
-      def categorize(penguin: Penguin): String = {
-        object YouthfulPenguin {
-          def unapply(p: Penguin): Option[(String, Int)] = {
-            asOption(isYoung(p.age), penguin, penguinExtractorFunction)
+      object YouthfulPenguin {
+        def unapply(p: Penguin): Option[(String, Int)] = {
+          if (isYoung(p.age)) {
+            Some(Tuple2(p.name, p.age))
+          } else {
+            None
           }
-        }
-
-        object MiddleAgedPenguin {
-          def unapply(p: Penguin): Option[(String, Int)] = {
-            asOption(isMiddleAged(p.age), penguin, penguinExtractorFunction)
-          }
-        }
-
-        penguin match {
-          case YouthfulPenguin(_, _) => youngPenguinDescription
-          case MiddleAgedPenguin(_, _) => middleAgedPenguinDescription
-          case _ => oldPenguinDescription
         }
       }
-    }
+
+      object MiddleAgedPenguin {
+        def unapply(p: Penguin): Option[(String, Int)] = {
+          if (isMiddleAged(p.age)) {
+            Some(Tuple2(p.name, p.age))
+          } else {
+            None
+          }
+        }
+      }
+
+      def categorize(penguin: Penguin): String =
+        penguin match {
+          case YouthfulPenguin(_, _) => "Young penguin"
+          case MiddleAgedPenguin(_, _) => "Middle aged penguin"
+          case _ => "Old penguin"
+        }
+      }
   }
 
 }

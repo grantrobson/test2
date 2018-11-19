@@ -4,33 +4,19 @@
     <list default="true" id="71bc093e-9cfa-40d4-b56f-76c7d3f6c67c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/various/PenguinCategorizer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/various/PenguinCategorizerTest.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$2$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/Penguin$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/Penguin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/PenguinCategorizer$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/PenguinCategorizer$MiddleAgedPenguin$2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/PenguinCategorizer$YouthfulPenguin$2$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/PenguinCategorizer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/PenguinCategorizerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,12 +53,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="3097" />
+          <entry key="scala" value="3219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3097" />
+          <entry key="Scala" value="3219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -101,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+            <state relative-caret-position="736">
+              <caret line="307" column="3" lean-forward="true" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -530,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        <state relative-caret-position="736">
+          <caret line="307" column="3" lean-forward="true" selection-start-line="307" selection-start-column="3" selection-end-line="307" selection-end-column="3" />
         </state>
       </provider>
     </entry>

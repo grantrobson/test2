@@ -1,26 +1,5 @@
-[0m[[0mdebug[0m] [0m[naha] The various.PenguinCategorizer$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) various.PenguinCategorizer$: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) various.PenguinCategorizer$.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala: Set(Penguin, categorize, PenguinCategorizer, <init>)[0m
-[0m[[0mdebug[0m] [0m[naha] The various.Penguin source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) various.Penguin: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) various.Penguin.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala: Set(Penguin, categorize, PenguinCategorizer, <init>)[0m
-[0m[[0mdebug[0m] [0m[naha] The various.Penguin$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) various.Penguin$: Set(); now invalidating by inheritance (internally).[0m
-[0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
-[0m[[0mdebug[0m] [0m[naha] Getting sources that directly depend on (external) various.Penguin$.[0m
-[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala: Set(Penguin, categorize, PenguinCategorizer, <init>)[0m
 [0m[[0mdebug[0m] [0m[naha] The various.ExtractorExample$ source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	isMiddleAged, isYoung.[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, unapply, wait, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, equals, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, isYoung, middleAgedPenguinDescription, YouthfulPenguin, notifyAll, isInstanceOf, MiddleAgedPenguin, asOption, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode, penguinExtractorFunction.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0m[naha] Files invalidated by inheriting from (external) various.ExtractorExample$: Set(); now invalidating by inheritance (internally).[0m
 [0m[[0mdebug[0m] [0m[naha] Getting direct dependencies of all sources transitively invalidated by inheritance.[0m
@@ -28,30 +7,16 @@
 [0m[[0mdebug[0m] [0m[naha] None of the modified names appears in /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/ExtractorExampleTest.scala. This dependency is not being considered for invalidation.[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
-[0m[[0mdebug[0m] [0m[naha] 	removed:Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(various.PenguinCategorizer$,ModifiedNames(regularNames = notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction, implicitNames = )), NamesChange(various.Penguin,ModifiedNames(regularNames = notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction, implicitNames = )), NamesChange(various.Penguin$,ModifiedNames(regularNames = notify, name, wait, copy$default$2, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, productArity, equals, Penguin, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, categorize, isYoung, middleAgedPenguinDescription, canEqual, PenguinCategorizer, productPrefix, age, notifyAll, isInstanceOf, <init>, asOption, categorizev1, ==, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, penguinExtractorFunction, implicitNames = )), NamesChange(various.ExtractorExample$,ModifiedNames(regularNames = isMiddleAged, isYoung, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set(NamesChange(various.ExtractorExample$,ModifiedNames(regularNames = notify, unapply, wait, $asInstanceOf, isMiddleAged, asOption$default$4, oldPenguinDescription, equals, asInstanceOf, youngPenguinDescription, synchronized, $isInstanceOf, isYoung, middleAgedPenguinDescription, YouthfulPenguin, notifyAll, isInstanceOf, MiddleAgedPenguin, asOption, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode, penguinExtractorFunction, implicitNames = )))[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	external source: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/grant/Applications/hmrc-development-environment/hmrc/test/src/test/scala/various/PenguinCategorizerTest.scala source file has the following implicit definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	convertToStringShouldWrapperForVerb, convertToStringCanWrapper, convertToWordSpecStringWrapper, convertToAnyShouldWrapper, convertNumericToPlusOrMinusWrapper, convertToEqualizer, subjectWithAfterWordRegistrationFunction, convertOptionToValuable, convertToRegexWrapper, unconstrainedEquality, convertToStringMustWrapperForVerb, convertToStringShouldWrapper, convertSymbolToHavePropertyMatcherGenerator, subjectRegistrationFunction.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
-[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
-[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
