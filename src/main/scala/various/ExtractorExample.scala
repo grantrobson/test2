@@ -17,21 +17,28 @@
 package various
 
 object ExtractorExample {
-  trait User { def name: String }
-  class FreeUser(val name: String) extends User
-  class PremiumUser(val name: String) extends User
+  def staticUnapplyMethodOnMatch: String = {
 
-  object FreeUser {
-    def apply(s:String) = new FreeUser(s)
-    def unapply(user: FreeUser): Option[String] = Some(user.name)
-  }
+    trait User {
+      def name: String
+    }
 
-  object PremiumUser {
-    def apply(s:String) = new PremiumUser(s)
-    def unapply(user: PremiumUser): Option[String] = Some(user.name)
-  }
+    class FreeUser(val name: String) extends User
 
-  def unapplyMethodOnMatch: String = {
+    class PremiumUser(val name: String) extends User
+
+    object FreeUser {
+      def apply(s: String) = new FreeUser(s)
+
+      def unapply(user: FreeUser): Option[String] = Some(user.name)
+    }
+
+    object PremiumUser {
+      def apply(s: String) = new PremiumUser(s)
+
+      def unapply(user: PremiumUser): Option[String] = Some(user.name)
+    }
+
     val user: User = PremiumUser("Daniel")
     user match {
       /*
@@ -45,7 +52,28 @@ object ExtractorExample {
     }
   }
 
-  def unapplyMethodOnAssignment: String = {
+  def staticUnapplyMethodOnAssignment: String = {
+
+    trait User {
+      def name: String
+    }
+
+    class FreeUser(val name: String) extends User
+
+    class PremiumUser(val name: String) extends User
+
+    object FreeUser {
+      def apply(s: String) = new FreeUser(s)
+
+      def unapply(user: FreeUser): Option[String] = Some(user.name)
+    }
+
+    object PremiumUser {
+      def apply(s: String) = new PremiumUser(s)
+
+      def unapply(user: PremiumUser): Option[String] = Some(user.name)
+    }
+
     val user = FreeUser("Grant")
 
     /*
@@ -56,39 +84,135 @@ object ExtractorExample {
     retrievedUserName
   }
 
-  case class Penguin(name: String, colour: String) {
-    def unapplySeq(s: Penguin): Option[List[String]] = {
-      Option(List(name + ":" + s.name, colour + ":" + s.colour))
-    }
-
-    def unapplySeq(s: String): Option[List[String]] = {
-      Option(List(name + " (" + s + ")"))
-    }
-  }
-
-  def unapplySeqMethodOnAssignment: Seq[String] = {
+  def staticUnapplyMethodOnAssignmentMultipleAttributes: Seq[String] = {
     class Albatross(val name: String, val colour: String) {
     }
     object Albatross {
-      def apply(s:String, c: String) = new Albatross(s, c)
-      def unapplySeq(a:Albatross): Option[List[String]] = {
+      def apply(s: String, c: String) = new Albatross(s, c)
+      def unapply(a: Albatross): Option[(String, String)] = {
+        Option(Tuple2(a.name, a.colour))
+      }
+    }
+
+    val albatross1 = Albatross("Stewart", "blue")
+    val Albatross(name, _) = albatross1
+
+    // is equivalent to:-
+    val capturedGroups = Albatross.unapply(albatross1).get
+
+    val c = capturedGroups._1
+    Seq(name, c)
+  }
+
+  def staticUnapplyMethodOnMatchMultipleAttributes: String = {
+    class Albatross(val name: String, val colour: String) {
+    }
+    object Albatross {
+      def apply(s: String, c: String) = new Albatross(s, c)
+      def unapply(a: Albatross): Option[(String, String)] = {
+        Option(Tuple2(a.name, a.colour))
+      }
+    }
+
+    val albatross1 = Albatross("Stewart", "blue")
+    albatross1 match {
+      case Albatross(n, c) => "Hello " + n + " - your colour is " + c
+      case _ => "Not found"
+    }
+  }
+
+  def staticUnapplySeqMethodOnAssignmentMultipleAttributes: Seq[String] = {
+    class Albatross(val name: String, val colour: String) {
+    }
+    object Albatross {
+      def apply(s: String, c: String) = new Albatross(s, c)
+
+      def unapplySeq(a: Albatross): Option[List[String]] = {
         Option(List(a.name, a.colour))
       }
     }
 
-    val albatross1 = Albatross("Juan", "blue")
-    val Albatross(name, _) = albatross1
+    val albatross1 = Albatross("Stewart", "blue")
+    val Albatross(a, b) = albatross1
 
     // is equivalent to:-
     val capturedGroups = Albatross.unapplySeq(albatross1).get
-
     val c = capturedGroups.head
     val d = capturedGroups(1)
 
-    Seq(name, c)
+    Seq(a, b, c, d)
   }
 
-  def unapplySeqMethodOnAssignmentForTwoObjects: Seq[String] = {
+  def staticUnapplySeqMethodOnMatchMultipleAttributes: String = {
+    class Albatross(val name: String, val colour: String) {
+    }
+    object Albatross {
+      def apply(s: String, c: String) = new Albatross(s, c)
+
+      def unapplySeq(a: Albatross): Option[List[String]] = {
+        Option(List(a.name, a.colour))
+      }
+    }
+
+    val albatross1 = Albatross("Stewart", "blue")
+
+    albatross1 match {
+      case Albatross(a, b) => "The values extracted are: " + a + "," + b
+      case _ => "No values extracted"
+    }
+  }
+
+  def staticUnapplySeqMethodOnAssignmentVariableAttributes: Seq[String] = {
+    class Albatross(val name: String, val colours: List[String]) {
+    }
+    object Albatross {
+      def apply(s: String, c: List[String]) = new Albatross(s, c)
+
+      def unapplySeq(a: Albatross): Option[List[String]] = {
+        Option(List(a.name) ++ a.colours)
+      }
+    }
+
+    val albatross1 = Albatross("Stewart", List("blue", "green"))
+    val Albatross(a, b, c) = albatross1
+
+    // is equivalent to:-
+    val capturedGroups = Albatross.unapplySeq(albatross1).get
+    val d = capturedGroups.head
+    val e = capturedGroups(1)
+    val f = capturedGroups(2)
+
+    Seq(a, b, c, d, e, f)
+  }
+
+  def staticUnapplySeqMethodOnMatchVariableAttributes: String = {
+    class Albatross(val name: String, val colours: List[String]) {
+    }
+    object Albatross {
+      def apply(s: String, c: List[String]) = new Albatross(s, c)
+
+      def unapplySeq(a: Albatross): Option[List[String]] = {
+        Option(List(a.name) ++ a.colours)
+      }
+    }
+
+    val albatross1 = Albatross("Stewart", List("blue", "green"))
+    albatross1 match {
+      // This will never match because there are two items in the list, not one
+      case Albatross(_, b) => "There is only one item in the list"
+      // This one will match - as list has two colours
+      case Albatross(_, b, c) => "The colours are: " + b + "," + c
+      case _ => "No values extracted"
+    }
+  }
+
+  def unapplySeqMethodOnAssignmentCombiningTwoObjects: Seq[String] = {
+    case class Penguin(name: String, colour: String) {
+      // An unapplySeq defined on a class allows object to be combined with another:-
+      def unapplySeq(s: Penguin): Option[List[String]] = {
+        Option(List(name + ":" + s.name, colour + ":" + s.colour))
+      }
+    }
     val penguin1 = Penguin("Harold", "heliotrope")
     val penguin2 = Penguin("Sally", "green")
 
@@ -101,10 +225,16 @@ object ExtractorExample {
     val c = capturedGroups.head
     val d = capturedGroups(1)
 
-    Seq(a,b,c,d)
+    Seq(a, b, c, d)
   }
 
-  def unapplySeqMethodOnAssignmentForTwoObjectsOfDifferentTypes: Seq[String] = {
+  def unapplySeqMethodOnAssignmentCombiningTwoObjectsOfDifferentTypes: Seq[String] = {
+    case class Penguin(name: String, colour: String) {
+      // An unapplySeq defined on a class allows object to be combined with another:-
+      def unapplySeq(s: String): Option[List[String]] = {
+        Option(List(name + " (" + s + ")"))
+      }
+    }
     val penguin1 = Penguin("Harold", "heliotrope")
 
     val penguin1(a) = "deceased"
@@ -115,6 +245,6 @@ object ExtractorExample {
 
     val b = capturedGroups.head
 
-    Seq(a,b)
+    Seq(a, b)
   }
 }

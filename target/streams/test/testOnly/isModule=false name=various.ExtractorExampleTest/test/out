@@ -2,6 +2,11 @@
 [0m[[0minfo[0m] [0m[32mextractorExample[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on a match[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapply where 2 attributes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapply where 2 attributes[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq where variable attributes[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an match for unapplySeq where variable attributes[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine two object together[0m[0m
 [0m[[0minfo[0m] [0m[32m- should find the correct unapply method on an assignment for unapplySeq to combine one object and a different type of object together[0m[0m

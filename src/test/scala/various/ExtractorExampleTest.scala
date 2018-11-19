@@ -21,25 +21,45 @@ import org.scalatest.{Matchers, OptionValues, WordSpecLike}
 class ExtractorExampleTest extends WordSpecLike with Matchers with OptionValues {
   "extractorExample" should {
     "find the correct unapply method on a match" in {
-      ExtractorExample.unapplyMethodOnMatch shouldBe "Welcome back paying client Daniel"
+      ExtractorExample.staticUnapplyMethodOnMatch shouldBe "Welcome back paying client Daniel"
     }
     "find the correct unapply method on an assignment" in {
-      ExtractorExample.unapplyMethodOnAssignment shouldBe "Grant"
+      ExtractorExample.staticUnapplyMethodOnAssignment shouldBe "Grant"
+    }
+
+    "find the correct unapply method on an assignment for unapply where 2 attributes" in {
+      ExtractorExample.staticUnapplyMethodOnAssignmentMultipleAttributes shouldBe Seq("Stewart", "Stewart")
+    }
+
+    "find the correct unapply method on an match for unapply where 2 attributes" in {
+      ExtractorExample.staticUnapplyMethodOnMatchMultipleAttributes shouldBe "Hello Stewart - your colour is blue"
     }
 
     "find the correct unapply method on an assignment for unapplySeq" in {
-      ExtractorExample.unapplySeqMethodOnAssignment shouldBe Seq("Juan", "Juan")
+      ExtractorExample.staticUnapplySeqMethodOnAssignmentMultipleAttributes shouldBe Seq("Stewart", "blue", "Stewart", "blue")
+    }
+
+    "find the correct unapply method on an match for unapplySeq" in {
+      ExtractorExample.staticUnapplySeqMethodOnMatchMultipleAttributes shouldBe "The values extracted are: Stewart,blue"
+    }
+
+    "find the correct unapply method on an assignment for unapplySeq where variable attributes" in {
+      ExtractorExample.staticUnapplySeqMethodOnAssignmentVariableAttributes shouldBe List("Stewart", "blue", "green", "Stewart", "blue", "green")
+    }
+
+    "find the correct unapply method on an match for unapplySeq where variable attributes" in {
+      ExtractorExample.staticUnapplySeqMethodOnMatchVariableAttributes shouldBe "The colours are: blue,green"
     }
 
     "find the correct unapply method on an assignment for unapplySeq to combine two object together" in {
-      val result = ExtractorExample.unapplySeqMethodOnAssignmentForTwoObjects
+      val result = ExtractorExample.unapplySeqMethodOnAssignmentCombiningTwoObjects
       println( "\nResult=" + result)
       result.head shouldBe result(2)
       result(1) shouldBe result(3)
     }
 
     "find the correct unapply method on an assignment for unapplySeq to combine one object and a different type of object together" in {
-      val result = ExtractorExample.unapplySeqMethodOnAssignmentForTwoObjectsOfDifferentTypes
+      val result = ExtractorExample.unapplySeqMethodOnAssignmentCombiningTwoObjectsOfDifferentTypes
       println( "\nResult=" + result)
       result.head shouldBe result(1)
     }
