@@ -16,3 +16,5 @@ test
 testOnly *Extractor*
 test
 testOnly *Extractor*
+test
+~testQuick

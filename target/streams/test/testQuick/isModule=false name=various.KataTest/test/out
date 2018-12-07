@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mKataTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mAbhijeets kata[0m[0m
+[0m[[0minfo[0m] [0m[32m  should be able to arrange a string of numbers into its highest number[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have a single digit[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have a two digit number[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have a three digit number[0m[0m
+[0m[[0minfo[0m] [0m[32m  should To be able to rearrange a string of numbers into it's smallest number[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have a single digit[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have a two digit number[0m[0m
+[0m[[0minfo[0m] [0m[32m  should to be able to subtract lowest no from highest[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I have two numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m  should to be able to continue until we reach a repeated number[0m[0m
+[0m[[0minfo[0m] [0m[32m  - when I start with 3141 and stop at 6174[0m[0m

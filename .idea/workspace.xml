@@ -2,37 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71bc093e-9cfa-40d4-b56f-76c7d3f6c67c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/various/Kata.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/various/KataTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/test-build.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$10$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$12$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$12$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$14$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$14$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$16$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$16$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$18$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$18$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$8$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Albatross$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$10$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$10$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$8$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$Penguin$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$Penguin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$PenguinCategorizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv1$PenguinCategorizer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$Penguin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$MiddleAgedPenguin$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$penguinv2$PenguinCategorizer$YouthfulPenguin$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3328853a54cd082699ae$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3328853a54cd082699ae$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3328853a54cd082699ae.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$3328853a54cd082699ae.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$45ce63a31a52dd27a9fd$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$45ce63a31a52dd27a9fd$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$45ce63a31a52dd27a9fd.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/project/target/config-classes/$45ce63a31a52dd27a9fd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$115d5f384a754c260f14$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$115d5f384a754c260f14$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$115d5f384a754c260f14.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$115d5f384a754c260f14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1b5d2e1aa7f1450a2028$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1b5d2e1aa7f1450a2028$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1b5d2e1aa7f1450a2028.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1b5d2e1aa7f1450a2028.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ec08cbdc106253ab644$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ec08cbdc106253ab644$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ec08cbdc106253ab644.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$2ec08cbdc106253ab644.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b7b926b3a904e8439f2$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b7b926b3a904e8439f2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b7b926b3a904e8439f2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4b7b926b3a904e8439f2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5feb883a5aa77bdf2c86$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5feb883a5aa77bdf2c86$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5feb883a5aa77bdf2c86.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5feb883a5aa77bdf2c86.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$61124b2f387439133618$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$61124b2f387439133618$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$61124b2f387439133618.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$61124b2f387439133618.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7018d693afddffb803ee$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7018d693afddffb803ee$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7018d693afddffb803ee.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7018d693afddffb803ee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7522baefc3ffd467825b$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7522baefc3ffd467825b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7522baefc3ffd467825b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7522baefc3ffd467825b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$836199e364fde1e7cda8$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$836199e364fde1e7cda8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$836199e364fde1e7cda8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$836199e364fde1e7cda8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$907d424c6e7c4b796e48$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$907d424c6e7c4b796e48$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$907d424c6e7c4b796e48.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$907d424c6e7c4b796e48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9b1f2d721d700baf6c13$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9b1f2d721d700baf6c13$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9b1f2d721d700baf6c13.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9b1f2d721d700baf6c13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd8300a3e5d63d4a3125$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd8300a3e5d63d4a3125$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd8300a3e5d63d4a3125.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd8300a3e5d63d4a3125.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d15be17ae052c646816b$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d15be17ae052c646816b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d15be17ae052c646816b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d15be17ae052c646816b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f057aa7674973a0b494e$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f057aa7674973a0b494e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f057aa7674973a0b494e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f057aa7674973a0b494e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxCalculator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxThresholdProvider.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/elasticsearch/ElasticClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/elasticsearch/ElasticClientOld.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/googledrive/GoogleDriveClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/googlesheets/GoogleSheetsClient.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/monads/Mebbees.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/selftype/TaxCalculator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/selftype/TaxThresholdProvider.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/various/CollectExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/various/DateExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/various/MatchExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/various/PartialsExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/alternativetoselftype/TaxCalculatorTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/elasticsearch/ElasticClientTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/googledrive/GoogleDriveClientTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/googlesheets/GoogleSheetsClientTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/monads/MebbeesTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/selftype/TaxCalculatorTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/CollectExampleTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/DateExampleTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/MatchExampleTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/various/PartialsExampleTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/various/ExtractorExample.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/test$sources_2.12/1.0/resolved.xml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-compile-internal.xml" afterDir="false" />
@@ -48,17 +123,32 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-sources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test-internal.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-test$sources_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/various/ExtractorExampleTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=various.ExtractorExampleTest/test/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=various.ExtractorExampleTest/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=various.ExtractorExampleTest/test/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/various.ExtractorExampleTest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,22 +176,23 @@
     <session id="1650867072">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="4419" />
+          <entry key="scala" value="4432" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="4419" />
+          <entry key="Scala" value="4432" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,23 +206,49 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1388041309">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="5176" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Scala" value="5176" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/various/KataTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="297" column="34" selection-start-line="297" selection-start-column="34" selection-end-line="297" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+              <folding>
+                <element signature="e#622#681#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/various/Kata.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
+            <state relative-caret-position="180">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -148,9 +265,11 @@
       <find>asOption</find>
       <find>isYoung</find>
       <find>staticUnapplyMethodOnMatchMultipleAttributes</find>
+      <find>services</find>
     </findStrings>
     <replaceStrings>
       <replace>Stewart</replace>
+      <replace>children</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -171,14 +290,16 @@
         <option value="$PROJECT_DIR$/src/test/scala/various/HttpReadsExampleTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/various/Kata.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/various/KataTest.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1656" />
+    <option name="x" value="1920" />
     <option name="y" value="-5" />
-    <option name="width" value="1837" />
-    <option name="height" value="1084" />
+    <option name="width" value="1920" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -186,36 +307,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -223,20 +342,20 @@
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -246,11 +365,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542360673348" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pension-administrator-frontend" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542968785035" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -325,11 +446,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="test [file:/home/grant/Applications/hmrc-development-environment/hmrc/test/]" />
+                <option name="name" value="test2 [file:/home/grant/Applications/hmrc-development-environment/hmrc/test2/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="test-build [file:/home/grant/Applications/hmrc-development-environment/hmrc/test/]" />
+                <option name="name" value="test2-build [file:/home/grant/Applications/hmrc-development-environment/hmrc/test2/]" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -361,10 +482,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="-5" width="1922" height="1086" extended-state="6" />
+    <frame x="81" y="-5" width="1839" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29828325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22321929" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +503,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32845187" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
       <window_info anchor="bottom" id="Build" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -451,105 +572,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/various/PartialsExampleTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/PartialsExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/CollectExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/selftype/TaxThresholdProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/selftype/TaxCalculatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/alternativetoselftype/TaxCalculatorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/various/PartialsExampleTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/PartialsExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/CollectExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/selftype/TaxThresholdProvider.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/selftype/TaxCalculatorTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/alternativetoselftype/TaxCalculatorTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/various/JsonExampleTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/various/HttpReadsExampleTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/selftype/TaxCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxThresholdProvider.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxCalculator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/various/MatchExampleTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/DateExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/MatchExample.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/selftype/TaxCalculator.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxThresholdProvider.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/alternativetoselftype/TaxCalculator.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/various/MatchExampleTest.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/DateExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/MatchExample.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/various/PenguinCategorizerTest.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/various/PenguinCategorizer.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/various/ExtractorExample.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/various/KataTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="287" column="44" lean-forward="true" selection-start-line="287" selection-start-column="44" selection-end-line="287" selection-end-column="44" />
+        <state relative-caret-position="306">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+          <folding>
+            <element signature="e#622#681#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/various/ExtractorExampleTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/various/Kata.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="297" column="34" selection-start-line="297" selection-start-column="34" selection-end-line="297" selection-end-column="34" />
+        <state relative-caret-position="180">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
